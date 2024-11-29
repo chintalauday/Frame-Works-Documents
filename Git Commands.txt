@@ -1,0 +1,35 @@
+git config --system –list  = To check System Level Configuration.
+git config --global --list = To check Global Level Configuration.
+git config --global user.name "uday"  = used to set global user name.
+git config --global user.email "udaychintala7"  = used to set global email id
+git config –list           =   will give both System and Global Configurations.
+git status                 = will tells you what changes are made in code or project.
+git init                   = this is used to initialize git.
+git add                    = used to add file from working directory to staging directory. (git add filename)
+git add .                  = used to add all files from working directory to staging directory. (git add filename)
+git commit                 = used to commit the code changes with some comments.(git commit -m “Commit message”)
+git show                   = will show commit details.
+git show commitid          = will show commit details of particular Id.
+git log                    = will give you the all log details.
+git log --oneline          = will give you the all log details in single line.
+git branch                 = Giving branch name.
+git branch -M main         = used to change branch name to main.
+git push                   = used to push our code to Git Repository. (git push origin master) here origin represents Git Repository and master represents local repository
+git clone                  = cloning repository into local system.(git clone https://github.com/chintalauday/Employee-Crud.git )
+git pull                   = getting changes from Git Repository to local.
+.gitignore                 = this is file name here we can mention the file names ti be ignored
+git checkout committed     = going to that committed id
+git revert commitid        = revert code back to previous 
+git revert HEAD            = revert code back to previous one commit
+git revert HEAD-2          = revert code back to previous 2 commit
+git reset                  = it will modify commit history (git reset commit id)
+git reset HEAD-number      = will modify commit history up to that number
+git reset –soft commit id  = will delete commit history and not code and code moved to staging area
+git reset –hard commit id  = will delete commit history and code also
+git branch                 = to see branch name.
+git branch <branch name>   = to create new branch. (git branch dev)
+git checkout <branch name> = if new branch created, we want t do changes in new branch, then we have to move to that branch for that this is used
+git checkout dev git checkout -b dev = it will create new branch dev and moving to dev branch from current branch
+git merge dev              = merging dev branch to current branch.
+
+
